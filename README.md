@@ -1,4 +1,4 @@
-# ufccalc
+# The User-Friendly Console Calculator
 A simple and easy to use CLI calculator which works like an old-school desk calculator.
 
 Instructions:
