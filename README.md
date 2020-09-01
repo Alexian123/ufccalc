@@ -1,7 +1,13 @@
 # The User-Friendly Console Calculator
 A simple and easy to use CLI calculator which works like an old-school desk calculator.
 
-Instructions:
-  - clone the repository and 'cd' into the new directory;
-  - run 'sudo make' to build and install or 'sudo make clean' to uninstall;
-  - you can now run the program by typing 'ufccalc' in a terminal.
+Dependencies:
+    - make
+    - gcc
+    - ncurses
+
+Installation:
+    - git clone https://github.com/Alexian123/ufccalc && cd ufccalc
+    - sudo make install
+
+To uninstall, run 'sudo make clean' in the 'ufccalc' directory.
