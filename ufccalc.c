@@ -56,12 +56,9 @@ int main()
         } else if (strcmp(buffer, "") && input == 'b') { // backspace
             buffer[strlen(buffer) - 1] = 0;
             reprint_current();
-        } else if (input >= '0' && input <= '9' && strlen(buffer) < MAX_BUFF) {
-            // add digit to the buffer
-            append_chr(buffer, input);
-            reprint_current();
-        } else if (strcmp(buffer, "") && input == '.' && !strchr(buffer, input)) {
-            // insert floating point
+        } else if ((input >= '0' && input <= '9' && strlen(buffer) < MAX_BUFF) || 
+                   (strcmp(buffer, "") && input == '.' && !strchr(buffer, input))) {
+            // add digit to the buffer or insert floating point
             append_chr(buffer, input);
             reprint_current();
         } else if (!strcmp(buffer, "") && input == 'n') {
