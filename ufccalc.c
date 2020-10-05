@@ -32,7 +32,8 @@ int main()
     printw("The User-Friendly Console Calculator");
     mvprintw(y_prompt_pos - 4, 0, "Press \'n\' for negative numbers, \'b\' to erase the last digit");
     mvprintw(y_prompt_pos - 3, 0, "\'c\' to clear the screen and \'q\' to quit.");
-    mvprintw(y_prompt_pos - 2, 0, "Supported operators: %s", operators);
+    mvprintw(y_prompt_pos - 2, 0, "Supported operators: \'%c\' \'%c\' \'%c\' \'%c\' \'%c\' \'%c\'", 
+            operators[0], operators[1], operators[2], operators[3], operators[4], operators[5]);
     mvprintw(y_prompt_pos + 1, 0, ">>> ");
     refresh();
 
