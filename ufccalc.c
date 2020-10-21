@@ -57,7 +57,8 @@ int main()
             buffer[strlen(buffer) - 1] = 0;
             reprint_current();
         } else if ((input >= '0' && input <= '9' && strlen(buffer) < MAX_BUFF) || 
-                   (strcmp(buffer, "") && input == '.' && !strchr(buffer, input))) {
+                   (strcmp(buffer, "") && input == '.' && !strchr(buffer, input) 
+                    && strcmp(buffer, "-"))) {
             // add digit to the buffer or insert floating point
             append_chr(buffer, input);
             reprint_current();
