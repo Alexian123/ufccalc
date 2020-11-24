@@ -9,4 +9,4 @@ Installation:<br>
     - git clone https://github.com/Alexian123/ufccalc && cd ufccalc<br>
     - sudo make install<br><br>
 
-To uninstall, run 'sudo make clean' in the 'ufccalc' directory.
+To uninstall, run 'sudo make uninstall' in the 'ufccalc' directory.
