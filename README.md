@@ -2,10 +2,7 @@
 A simple and easy to use CLI calculator which works like an old-school desk calculator.
 <br><br>
 
-Dependencies:<br>
-    - make<br>
-    - gcc<br>
-    - ncurses<br><br>
+Ncurses dev library is required.<br><br>
 
 Installation:<br>
     - git clone https://github.com/Alexian123/ufccalc && cd ufccalc<br>
