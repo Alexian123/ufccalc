@@ -6,14 +6,15 @@ ODIR=/usr/bin
 LIBS=-lm -lncurses
 
 default:
-	@echo Run 'sudo make install' to build and install the program
+	@echo Run \'sudo make install\' to build and install the program
+	@echo or \'sudo make uninstall\' to uninstall the program.
 
 install: ufccalc
 
 ufccalc: ufccalc.c
 	$(CC) $(CFLAGS) -o $(ODIR)/ufccalc ufccalc.c $(LIBS)
 
-clean:
+uninstall:
 	rm $(ODIR)/ufccalc
 
-.PHONY: install clean
+.PHONY: install uninstall
