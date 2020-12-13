@@ -3,10 +3,10 @@ A simple and easy to use CLI calculator which works like an old-school desk calc
 <br><br>
 
 Dependencies:<br>
-    - ncurses<br><br>
-    - make
-    - gcc
-    - git
+    - ncurses<br>
+    - make<br>
+    - gcc<br>
+    - git<br><br>
 
 Installation:<br>
     - git clone https://github.com/Alexian123/ufccalc && cd ufccalc<br>
